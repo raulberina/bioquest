@@ -1,0 +1,108 @@
+body {
+  font-family: Poppins;
+  padding: 0px;
+  margin: 0px;
+}
+
+.quick-contact {
+  background-color: #f2f2f2;
+}
+
+.alertInfo {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 0px 50px 0px 35px !important;
+}
+.alertInfo .al2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #78bf4d;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Raleway;
+  padding: 10px;
+}
+.alertInfo .al1 {
+  display: flex;
+  align-items: center;
+}
+.alertInfo .al1 ul {
+  list-style-type: none;
+  margin-bottom: 0px;
+  padding-left: 0px !important;
+}
+.alertInfo .al1 ul li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 10px;
+  font-size: smaller;
+}
+
+a.nav-link {
+  font-size: smaller;
+  font-weight: bold;
+}
+
+a.nav-link.active {
+  color: #54be73 !important;
+}
+
+a:hover.nav-link {
+  color: #54be73 !important;
+}
+
+.navbar-brand img {
+  height: 70px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.main {
+  background: #1f232b;
+  height: auto;
+}
+
+#testimonial_095 {
+  background-color: #1f232b !important;
+}
+#testimonial_095 h1 {
+  color: white;
+  font-weight: 600;
+}
+#testimonial_095 h6 {
+  color: white;
+}
+#testimonial_095 .testimonial_095_slide {
+  margin-top: 8%;
+}
+#testimonial_095 .buynow {
+  background-color: #9cc026;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 7px 15px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.info {
+  background: url("images/blue-white-art.png") no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  height: 400px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.fa.fa-chevron-right {
+  font-size: large !important;
+}
+
+.fa.fa-chevron-left {
+  font-size: large !important;
+}
+
+/*# sourceMappingURL=style.css.map */
