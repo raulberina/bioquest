@@ -75,7 +75,11 @@ a:hover.nav-link {
   color: white;
 }
 #testimonial_095 .testimonial_095_slide {
-  margin-top: 8%;
+  margin-top: 5%;
+  background: url("images/slider-1.jpg");
+  background-size: 100%;
+  background-position: center bottom;
+  padding: 50px !important;
 }
 #testimonial_095 .buynow {
   background-color: #9cc026;
