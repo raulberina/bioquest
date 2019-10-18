@@ -236,4 +236,34 @@ a:hover.nav-link {
   padding: 1.25rem !important;
 }
 
+.divGrowing {
+  background-color: white;
+  padding: 50px;
+}
+.divGrowing .growing h6 {
+  color: #78bf4d;
+}
+.divGrowing .growing h2 {
+  color: #1f232b;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1f232b;
+  height: 100px;
+}
+.footer p {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

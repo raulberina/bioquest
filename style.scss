@@ -258,4 +258,34 @@ a:hover.nav-link {
 	}	
 }
 
+.divGrowing {
+	background-color: white;	
+	padding: 50px;
+	.growing {
+		h6{
+			color: $greenPrimary;			
+		}
+		h2{
+			color: $mainGray;
+		}
+	}
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $mainGray;
+	height: 100px;	
+	p {
+		color: white;
+		font-size: 13px;
+		margin-top: 20px;
+	}
+}
+
+
+
+
+
 
