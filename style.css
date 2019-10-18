@@ -228,9 +228,16 @@ a:hover.nav-link {
   font-weight: 300 !important;
 }
 .divShop .shop .upperCardShop {
-  height: 100px;
+  width: 100%;
+  height: auto;
   background-color: #dbdbdb;
   border-radius: 10px 10px 0px 0px;
+}
+.divShop .shop .upperCardShop div:nth-child(1) {
+  padding-bottom: 50px;
+}
+.divShop .shop .upperCardShop div:nth-child(2) {
+  margin-bottom: -60px;
 }
 .divShop .shop .card-body {
   padding: 1.25rem !important;
@@ -264,6 +271,43 @@ a:hover.nav-link {
   color: white;
   font-size: 13px;
   margin-top: 20px;
+}
+
+.newsletter {
+  padding: 50px 0px;
+  height: auto;
+  background-color: #54be73;
+  color: white;
+}
+.newsletter h6 {
+  font-size: 15px;
+}
+.newsletter .form-control {
+  margin: 0px 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.newsletter .btn-light {
+  color: #54be73 !important;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

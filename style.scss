@@ -229,6 +229,7 @@ a:hover.nav-link {
 				color: white;
 				border: 1px solid $lightGray;
 			}
+			
 		}
 
 		.cardShop {
@@ -247,9 +248,18 @@ a:hover.nav-link {
 			}
 		
 		.upperCardShop {
-			height: 100px;
+			width: 100%;			
+			height: auto;
 			background-color: $lightGray;
 			border-radius: 10px 10px 0px 0px;
+
+			div:nth-child(1) {				
+				padding-bottom: 50px;
+			}
+
+			div:nth-child(2) {
+				margin-bottom: -60px;
+			}
 		}
 
 		.card-body {
@@ -285,7 +295,27 @@ a:hover.nav-link {
 }
 
 
+.newsletter {
+	padding: 50px 0px;
+	height: auto;
+	background-color: $greenThird;
+	color: white;	
 
+	h6 {
+		font-size: 15px;
+	}
 
+	.form-control {
+		margin: 0px 20px;
+		background-color: rgba(0, 0, 0, 0.0);		
+	}
 
+	.btn-light {
+			color: $greenThird !important;
+		}
+}
 
+::placeholder{
+	color: white;
+	opacity: 1;
+}
