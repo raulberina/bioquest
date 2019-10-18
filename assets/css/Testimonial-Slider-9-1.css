@@ -1,6 +1,6 @@
 #testimonial_095 {
   overflow: hidden;
-  min-height: 375px;
+  min-height: 420px;
   position: relative;
   background: #141414;
 }
@@ -30,7 +30,7 @@
   width: 100%;
   font-size: 0;
   height: 20px;
-  bottom: 15px;
+  bottom: 0px;
   padding: 0 5px;
   display: block;
   overflow-x: auto;

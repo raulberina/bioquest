@@ -74,10 +74,12 @@ a:hover.nav-link {
 .main {
   background: #1f232b;
   height: auto;
+  padding-bottom: 70px;
 }
 
 #testimonial_095 {
   background-color: #1f232b !important;
+  padding-top: 20px;
 }
 #testimonial_095 h1 {
   color: white;
@@ -114,6 +116,7 @@ a:hover.nav-link {
   height: 400px;
   padding-right: 0px !important;
   padding-left: 0px !important;
+  padding-top: 0px;
 }
 
 .fa.fa-chevron-right {
@@ -122,6 +125,60 @@ a:hover.nav-link {
 
 .fa.fa-chevron-left {
   font-size: large !important;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0) !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none !important;
+}
+.card img {
+  width: 74px;
+  margin-bottom: -35px;
+  z-index: 1;
+}
+.card .card-body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 3.25rem;
+}
+.card .card_1 {
+  background-color: #669543;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.card .card_2 {
+  background-color: #54be73;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.card .card_3 {
+  background-color: #78bf4d;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.card .card_4 {
+  background-color: #9cc026;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.colCard2 {
+  margin-top: 2rem;
+}
+
+.colCard3 {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
