@@ -6,7 +6,7 @@ $mainFont: Raleway;
 $secondFont: Poppins;
 
 $mainGray: #1f232b;
-$lightGray: #f2f2f2;
+$lightGray: #dbdbdb;
 
 
 body{
@@ -124,7 +124,7 @@ a:hover.nav-link {
 	background: url('images/blue-white-art.png') no-repeat;
 	background-size: 100%;
 	background-position: center top;
-	height: 400px;
+	height: 360px;
 	padding-right: 0px !important;
 	padding-left: 0px !important;
 	padding-top: 0px;
@@ -190,6 +190,72 @@ a:hover.nav-link {
 
 .colCard3 {
 	margin-top: 2rem;
+}
+
+.about{
+	padding: 50px 0px;
+	.whoBio {
+		h6{
+			color: $greenSecodary;
+		}
+		h2{
+			color: $mainGray;
+		}
+	}	
+}
+
+.divShop{
+		background-color: $mainGray;
+		padding: 50px 0px;
+		.shop{
+		padding: 50px 0px;
+		.mainShop {
+			h6{
+				color: $greenSecodary;
+			}
+
+			h2{
+				color: white;
+			}
+
+			.btnShop {
+				background-color: $mainGray;
+				color: white;
+				border: 1px solid $lightGray;
+			}
+
+			.form-control {
+				background-color: $mainGray;
+				color: white;
+				border: 1px solid $lightGray;
+			}
+		}
+
+		.cardShop {
+				border-radius: 10px;
+				background-color: white !important;
+				height: 300px;
+				font-size: 14px;
+				h6{
+					font-weight: 700 !important;
+					padding-bottom: 15px;
+				}
+
+				p{
+					font-weight: 300 !important;
+				}
+			}
+		
+		.upperCardShop {
+			height: 100px;
+			background-color: $lightGray;
+			border-radius: 10px 10px 0px 0px;
+		}
+
+		.card-body {
+			padding: 1.25rem !important;
+		}
+	}	
 }
 
 

@@ -5,14 +5,14 @@ body {
 }
 
 .quick-contact {
-  background-color: #f2f2f2;
+  background-color: #dbdbdb;
 }
 
 .alertInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #f2f2f2;
+  background-color: #dbdbdb;
   padding: 0px 50px 0px 35px !important;
 }
 .alertInfo .al2 {
@@ -113,7 +113,7 @@ a:hover.nav-link {
   background: url("images/blue-white-art.png") no-repeat;
   background-size: 100%;
   background-position: center top;
-  height: 400px;
+  height: 360px;
   padding-right: 0px !important;
   padding-left: 0px !important;
   padding-top: 0px;
@@ -179,6 +179,61 @@ a:hover.nav-link {
 
 .colCard3 {
   margin-top: 2rem;
+}
+
+.about {
+  padding: 50px 0px;
+}
+.about .whoBio h6 {
+  color: #9cc026;
+}
+.about .whoBio h2 {
+  color: #1f232b;
+}
+
+.divShop {
+  background-color: #1f232b;
+  padding: 50px 0px;
+}
+.divShop .shop {
+  padding: 50px 0px;
+}
+.divShop .shop .mainShop h6 {
+  color: #9cc026;
+}
+.divShop .shop .mainShop h2 {
+  color: white;
+}
+.divShop .shop .mainShop .btnShop {
+  background-color: #1f232b;
+  color: white;
+  border: 1px solid #dbdbdb;
+}
+.divShop .shop .mainShop .form-control {
+  background-color: #1f232b;
+  color: white;
+  border: 1px solid #dbdbdb;
+}
+.divShop .shop .cardShop {
+  border-radius: 10px;
+  background-color: white !important;
+  height: 300px;
+  font-size: 14px;
+}
+.divShop .shop .cardShop h6 {
+  font-weight: 700 !important;
+  padding-bottom: 15px;
+}
+.divShop .shop .cardShop p {
+  font-weight: 300 !important;
+}
+.divShop .shop .upperCardShop {
+  height: 100px;
+  background-color: #dbdbdb;
+  border-radius: 10px 10px 0px 0px;
+}
+.divShop .shop .card-body {
+  padding: 1.25rem !important;
 }
 
 /*# sourceMappingURL=style.css.map */
