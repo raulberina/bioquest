@@ -337,6 +337,11 @@ a:hover.nav-link {
   text-align: center;
   top: 30%;
 }
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 10% !important;
+  }
+}
 .carousel-caption h1 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -344,6 +349,18 @@ a:hover.nav-link {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
   color: #1f232b;
   opacity: 0;
+}
+
+.carousel-item {
+  height: auto;
+  /* min-height: 350px; */
+  background: no-repeat top scroll;
+  background-size: 100%;
+}
+@media (min-width: 768px) {
+  .carousel-item {
+    height: auto !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
