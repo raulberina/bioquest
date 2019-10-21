@@ -103,17 +103,6 @@ a:hover.nav-link {
 		padding: 50px !important;
 	}
 
-	.buynow {
-		background-color: $greenSecodary;
-		border: none;
-		color: white;
-		border-radius: 5px;
-		font-size: 13px;
-		padding: 7px 15px;
-		margin-top: 20px;
-		font-weight: bold;
-	}
-
 	>.carousel-inner {
 		width: 100% !important;
 	}
@@ -339,4 +328,29 @@ a:hover.nav-link {
 
 		.right {
 			align-self: flex-end;
+}
+
+
+.buynow {
+		background-color: $greenSecodary;
+		border: none;
+		color: white;
+		border-radius: 5px;
+		font-size: 13px;
+		padding: 15px 20px;
+		margin-top: 20px;
+		font-weight: bold;
+	}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 30%;
 }
