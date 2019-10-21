@@ -74,7 +74,7 @@ a:hover.nav-link {
 .main {
   background: #1f232b;
   height: auto;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
 }
 
 #testimonial_095 {
@@ -100,13 +100,15 @@ a:hover.nav-link {
 }
 
 .info {
-  background: url("images/blue-white-art.png") no-repeat;
+  /* background: url('images/blue-white-art.png') no-repeat; 
   background-size: 100%;
   background-position: center top;
+  */
+  background-color: #eff0f3;
   height: auto;
   padding-right: 0px !important;
   padding-left: 0px !important;
-  padding-top: 0px;
+  padding: 50px 0px;
 }
 
 .fa.fa-chevron-right {
@@ -341,6 +343,7 @@ a:hover.nav-link {
 .carousel-caption .h2gray {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
   color: #1f232b;
+  opacity: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
