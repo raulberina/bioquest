@@ -308,6 +308,9 @@ a:hover.nav-link {
 		margin: 0px 20px;
 		background-color: rgba(0, 0, 0, 0.0);		
 	}
+	::placeholder{
+		color: white;
+	}
 
 	.btn-light {
 			color: $greenThird !important;

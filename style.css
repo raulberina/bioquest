@@ -318,6 +318,22 @@ a:hover.nav-link {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.newsletter ::-webkit-input-placeholder {
+  color: white;
+}
+
+.newsletter :-ms-input-placeholder {
+  color: white;
+}
+
+.newsletter ::-ms-input-placeholder {
+  color: white;
+}
+
+.newsletter ::placeholder {
+  color: white;
+}
+
 .newsletter .btn-light {
   color: #54be73 !important;
 }
