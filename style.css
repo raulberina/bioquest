@@ -133,10 +133,15 @@ a:hover.nav-link {
           align-items: center;
   border: none !important;
 }
-.card img {
+.card .card-img-top {
   width: 74px;
   margin-bottom: -35px;
   z-index: 1;
+}
+.card .products {
+  width: 95%;
+  padding-top: 20px;
+  z-index: 1000;
 }
 .card .card-body {
   -webkit-box-flex: 1;
@@ -149,24 +154,48 @@ a:hover.nav-link {
   border-radius: 10px;
   color: white;
   text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 20px 0px !important;
+}
+.card .card_1 h4 {
+  padding-top: 20px;
 }
 .card .card_2 {
   background-color: #54be73;
   border-radius: 10px;
   color: white;
   text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 20px 0px !important;
+}
+.card .card_2 h4 {
+  padding-top: 20px;
 }
 .card .card_3 {
   background-color: #78bf4d;
   border-radius: 10px;
   color: white;
   text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 20px 0px !important;
+}
+.card .card_3 h4 {
+  padding-top: 20px;
 }
 .card .card_4 {
   background-color: #9cc026;
   border-radius: 10px;
   color: white;
   text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 20px 0px !important;
+}
+.card .card_4 h4 {
+  padding-top: 20px;
 }
 
 .colCard2 {
