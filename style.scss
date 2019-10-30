@@ -312,12 +312,26 @@ a:hover.nav-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	background-color: #15191f;
-	height: 100px;	
+	height: auto;	
+	padding: 20px 0px;
 	p {
 		color: white;
 		font-size: 13px;
 		margin-top: 20px;
+	}
+	
+	.icons-footer{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		height: 50px;
+		border: 1px solid white;
+		border-radius: 100%;
+		color: white;
+		margin: 0px 10px;
 	}
 }
 
