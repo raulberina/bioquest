@@ -312,7 +312,7 @@ a:hover.nav-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: $mainGray;
+	background-color: #15191f;
 	height: 100px;	
 	p {
 		color: white;
@@ -434,5 +434,34 @@ a:hover.nav-link {
 .testi{
 	p{
 		font-style: italic;
+		padding-top: 18px;
 	}
 }
+
+.contact-us{
+	background-color: $mainGray;
+	padding: 50px 0px;
+	color: white;
+
+	ul{
+		list-style: none;
+		padding-left: 0px;
+		margin-left: 0px;
+		li{
+			padding: 5px 0px;
+			font-size: small; 
+		}
+	}
+	
+}
+
+.boxDot{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 200px;
+		height: 200px;
+		border: dashed 1px white;
+		border-radius: 10px;
+		text-align: center;
+	}

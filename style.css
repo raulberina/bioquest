@@ -286,7 +286,7 @@ a:hover.nav-link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #1f232b;
+  background-color: #15191f;
   height: 100px;
 }
 .footer p {
@@ -415,6 +415,39 @@ a:hover.nav-link {
 
 .testi p {
   font-style: italic;
+  padding-top: 18px;
+}
+
+.contact-us {
+  background-color: #1f232b;
+  padding: 50px 0px;
+  color: white;
+}
+.contact-us ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.contact-us ul li {
+  padding: 5px 0px;
+  font-size: small;
+}
+
+.boxDot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 200px;
+  border: dashed 1px white;
+  border-radius: 10px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
