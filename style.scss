@@ -268,6 +268,12 @@ a:hover.nav-link {
 				border-bottom: 1px solid $lightGray;
 				font-family: $mainFont;
 			}
+			li::before {
+				content: "\2B9E";
+				color: #54be73;
+				padding-right: 8px;
+				font-size: small;
+			}
 		}
 
 		.cardShop {
@@ -282,6 +288,11 @@ a:hover.nav-link {
 
 				p{
 					font-weight: 300 !important;
+				}
+
+				@media (max-width: 990px) {
+					margin-top: 10px;
+					margin-bottom: 10px;
 				}
 			}
 
@@ -509,3 +520,23 @@ a:hover.nav-link {
 		border-radius: 10px;
 		text-align: center;
 	}
+#product_1{
+	background: url('images/products.jpg') no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#product_2{
+	background: url('images/products_2.jpg') no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#product_3{
+	background: url('images/products_3.jpg') no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
