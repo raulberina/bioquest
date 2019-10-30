@@ -225,13 +225,25 @@ a:hover.nav-link {
 				color: white;
 				border: 1px solid $lightGray;
 			}
-			
+
+			ul{
+				margin-left: 0px;
+				padding-left: 0px;
+			}
+
+			ul li{
+				list-style: none;
+				color: white;
+				padding: 10px 0px;
+				border-bottom: 1px solid $lightGray;
+				font-family: $mainFont;
+			}
 		}
 
 		.cardShop {
 				border-radius: 10px;
 				background-color: white !important;
-				height: 300px;
+				height: auto;
 				font-size: 14px;
 				h6{
 					font-weight: 700 !important;
@@ -242,7 +254,23 @@ a:hover.nav-link {
 					font-weight: 300 !important;
 				}
 			}
-		
+
+		.news{
+			height: 250px !important;
+
+			.left{
+				float: left;
+			}
+			.right{
+				float: right;
+				color: $greenPrimary;
+			}
+			h6{
+				clear: both;
+				padding-top: 10px;
+			}
+		}
+
 		.upperCardShop {
 			width: 100%;			
 			height: auto;
@@ -392,3 +420,5 @@ a:hover.nav-link {
 		height: auto !important;
 	}
 }
+
+
