@@ -1,0 +1,31 @@
+{
+  "name": "bioquest",
+  "version": "1.0.0",
+  "description": "For Bioquest project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulberina/bioquest.git"
+  },
+  "keywords": [
+    "Bioquest"
+  ],
+  "author": "Raul Berina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulberina/bioquest/issues"
+  },
+  "homepage": "https://github.com/raulberina/bioquest#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "gulp-uglifycss": "^1.1.0"
+  }
+}

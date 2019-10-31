@@ -1,13 +1,5 @@
-$greenPrimary: #78bf4d;
-$greenSecodary: #9cc026;
-$greenThird: #54be73;
-$greenFourth: #669543;
-$mainFont: Raleway;
-$secondFont: Poppins;
-
-$mainGray: #1f232b;
-$lightGray: #dbdbdb;
-
+@import 'variables';
+@import 'bs-studio';
 
 body{
 	font-family: $mainFont;
@@ -34,9 +26,7 @@ body{
 		font-weight: bold;
 		font-family: $mainFont;
 		padding: 10px;
-		
 	}
-
 	.al1 {
 		display: flex;
 		align-items: center;
@@ -73,13 +63,11 @@ a:hover.nav-link {
 	color: $greenThird !important;
 }
 
-
 .navbar-brand img{
 	height: 70px;
     margin-top: -8px;
     margin-bottom: -8px;
 }
-
 
 .main {
 	background: $mainGray;
@@ -551,21 +539,21 @@ a:hover.nav-link {
 		}
 	}
 #product_1{
-	background: url('images/products.jpg') no-repeat;
+	background: url('/images/products.jpg') no-repeat;
 	background-position: center center;
 	background-size: 100%;
 	border-radius: 10px 10px 0px 0px;
 }
 
 #product_2{
-	background: url('images/products_2.jpg') no-repeat;
+	background: url('/images/products_2.jpg') no-repeat;
 	background-position: center center;
 	background-size: 100%;
 	border-radius: 10px 10px 0px 0px;
 }
 
 #product_3{
-	background: url('images/products_3.jpg') no-repeat;
+	background: url('/images/products_3.jpg') no-repeat;
 	background-position: center center;
 	background-size: 100%;
 	border-radius: 10px 10px 0px 0px;
@@ -574,3 +562,5 @@ a:hover.nav-link {
 	.fa .fas .far{
 		color: $greenPrimary !important;
 	}
+
+
