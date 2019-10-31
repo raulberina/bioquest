@@ -736,19 +736,19 @@ a:hover.nav-link {
     padding: 2px; }
 
 #product_1 {
-  background: url("/images/products.jpg") no-repeat;
+  background: url("https://raulberina.github.io/bioquest/images/products.jpg") no-repeat;
   background-position: center center;
   background-size: 100%;
   border-radius: 10px 10px 0px 0px; }
 
 #product_2 {
-  background: url("/images/products_2.jpg") no-repeat;
+  background: url("https://raulberina.github.io/bioquest/images/products_2.jpg") no-repeat;
   background-position: center center;
   background-size: 100%;
   border-radius: 10px 10px 0px 0px; }
 
 #product_3 {
-  background: url("/images/products_3.jpg") no-repeat;
+  background: url("https://raulberina.github.io/bioquest/images/products_3.jpg") no-repeat;
   background-position: center center;
   background-size: 100%;
   border-radius: 10px 10px 0px 0px; }
