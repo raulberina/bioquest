@@ -113,7 +113,7 @@ a:hover.nav-link {
 	}
 }
 
-
+/* ----------------------------------- */
 .info{
 	/* background: url('images/blue-white-art.png') no-repeat; 
 	background-size: 100%;
@@ -123,7 +123,101 @@ a:hover.nav-link {
 	height: auto;
 	padding-right: 0px !important;
 	padding-left: 0px !important;
-	padding: 50px 0px;
+	padding: 100px 0px;
+
+		.card {
+			background-color: rgba(0, 0, 0, 0.0) !important;
+			display: flex;
+			align-items: center;
+			border: none !important;
+			
+			.card-img-top {
+				width: 74px;
+				margin-bottom: -35px;
+				z-index: 2;
+			}
+			.products{
+				width: 95%;
+				padding-top: 20px;
+				z-index: 3;
+			}
+
+			.card-body {
+				flex: 1 1 auto;
+			    padding: 3.25rem;
+			    .card-img-top2 {
+			    	width: 74px;
+			    	margin-top: -35px;
+			    	z-index: 2;
+			    }
+			    .products2{
+			    	width: 95%;
+			    	margin-top: -15px;
+			    	z-index: 3;
+			    }
+			}
+
+			.card_1 {
+				background-color: $greenFourth;
+				border-radius: 10px;
+				color: white;
+				text-align: center;
+				width: 100%;
+				height: auto;
+				padding: 0px 0px 20px 0px !important;
+				z-index: 1;
+				h4{
+					padding-top: 20px;
+				}
+			}
+
+			.card_2 {
+				background-color: $greenThird;
+				border-radius: 10px;
+				color: white;
+				text-align: center;
+				width: 100%;
+				height: auto;
+				padding: 0px 0px 20px 0px !important;
+				h4{
+					padding-top: 20px;
+				}
+			}
+
+			.card_3 {
+				background-color: $greenPrimary;
+				border-radius: 10px;
+				color: white;
+				text-align: center;
+				width: 100%;
+				height: auto;
+				padding: 0px 0px 20px 0px !important;
+
+				@media (max-width: 992px){
+					margin-top: 55px !important;
+				}
+
+				h4{
+					padding-top: 20px;
+				}
+			}
+
+			.card_4 {
+				background-color: $greenSecodary;
+				border-radius: 10px;
+				color: white;
+				text-align: center;
+				width: 100%;
+				height: auto;
+				padding: 0px 0px 20px 0px !important;
+				@media (max-width: 992px){
+					margin-top: 55px !important;
+				}
+				h4{
+					padding-top: 20px;
+				}
+			}
+	}
 }
 
 .fa.fa-chevron-right{
@@ -132,82 +226,6 @@ a:hover.nav-link {
 
 .fa.fa-chevron-left{
 	font-size: large !important;
-}
-
-.card {
-	background-color: rgba(0, 0, 0, 0.0) !important;
-	display: flex;
-	align-items: center;
-	border: none !important;
-
-	.card-img-top {
-		width: 74px;
-		margin-bottom: -35px;
-		z-index: 1;
-	}
-	.products{
-		width: 95%;
-		padding-top: 20px;
-		z-index: 1000;
-
-	}
-
-	.card-body {
-		flex: 1 1 auto;
-	    padding: 3.25rem;
-	}
-
-	.card_1 {
-		background-color: $greenFourth;
-		border-radius: 10px;
-		color: white;
-		text-align: center;
-		width: 100%;
-		height: auto;
-		padding: 0px 0px 20px 0px !important;
-		h4{
-			padding-top: 20px;
-		}
-	}
-
-	.card_2 {
-		background-color: $greenThird;
-		border-radius: 10px;
-		color: white;
-		text-align: center;
-		width: 100%;
-		height: auto;
-		padding: 0px 0px 20px 0px !important;
-		h4{
-			padding-top: 20px;
-		}
-	}
-
-	.card_3 {
-		background-color: $greenPrimary;
-		border-radius: 10px;
-		color: white;
-		text-align: center;
-		width: 100%;
-		height: auto;
-		padding: 0px 0px 20px 0px !important;
-		h4{
-			padding-top: 20px;
-		}
-	}
-
-	.card_4 {
-		background-color: $greenSecodary;
-		border-radius: 10px;
-		color: white;
-		text-align: center;
-		width: 100%;
-		height: auto;
-		padding: 0px 0px 20px 0px !important;
-		h4{
-			padding-top: 20px;
-		}
-	}
 }
 
 .colCard2 {
@@ -452,6 +470,7 @@ a:hover.nav-link {
 	
     h1 {
 		text-shadow: 2px 2px 2px rgba(0,0,0,0.5);		
+		font-family: $secondFont;
     }
 
     .h2gray {
@@ -507,6 +526,14 @@ a:hover.nav-link {
 			font-size: small; 
 		}
 	}
+
+	.logo_footer {
+		padding: 0px;
+		@media (min-width: 576px){
+			padding-bottom: 50px;
+			text-align: center;
+		}
+	}
 	
 }
 
@@ -519,6 +546,9 @@ a:hover.nav-link {
 		border: dashed 1px white;
 		border-radius: 10px;
 		text-align: center;
+		h1{
+			padding: 2px;
+		}
 	}
 #product_1{
 	background: url('images/products.jpg') no-repeat;
@@ -540,3 +570,7 @@ a:hover.nav-link {
 	background-size: 100%;
 	border-radius: 10px 10px 0px 0px;
 }
+
+	.fa .fas .far{
+		color: $greenPrimary !important;
+	}
